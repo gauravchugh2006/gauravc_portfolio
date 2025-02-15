@@ -1,113 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            width: 80%;
-            margin: 0 auto;
-            overflow: hidden;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #77a solid 3px;
-        }
-        header a {
-            color: #fff;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: 16px;
-        }
-        #showcase {
-            min-height: 400px;
-            background: url('images/showcase.jpg') no-repeat 0 -400px;
-            text-align: center;
-            color: #fff;
-        }
-        #showcase h1 {
-            margin-top: 100px;
-            font-size: 55px;
-            margin-bottom: 10px;
-        }
-        #showcase p {
-            font-size: 20px;
-        }
-        section {
-            padding: 20px 0;
-        }
-        .project {
-            background: #fff;
-            padding: 20px;
-            margin: 20px 0;
-            border: #e1e1e1 1px solid;
-        }
-        .project h2 {
-            margin: 0;
-        }
-        .project img {
-            width: 100%;
-            height: auto;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <div class="container">
-            <div id="branding">
-                <h1>My Portfolio</h1>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#movie-recommendation">Movie Recommendation</a></li>
-                    <li><a href="#clothes-recommendation">Clothes Recommendation</a></li>
-                    <li><a href="#sales-forecasting">Sales Forecasting</a></li>
-                    <li><a href="#weather-forecasting">Weather Forecasting</a></li>
-                </ul>
-            </nav>
+---
+layout: default
+title: My Portfolio
+description: Showcase of My Projects
+---
+
+<header>
+    <div class="container">
+        <div id="branding">
+            <h1>My Portfolio</h1>
         </div>
-    </header>
-    <header class="header">
-        <div class="container">
-            <h1>Welcome to My Data Projects</h1>
-            <p>Explore my portfolio showcasing various data projects.</p>
-        </div>
-    </header>
-    <section class="container" id="projects">
-        <div class="project" id="movie-recommendation">
-            <h2>Movie Recommendation System</h2>
-            <img src="images/movie-recommendation.png" alt="Movie Recommendation System">
-            <p>A project to recommend movies based on user preferences using collaborative filtering and content-based filtering techniques.</p>
-            <a href="projects/movie-recommendation/">Explore Project</a>
-        </div>
-        <div class="project" id="clothes-recommendation">
-            <h2>Clothes Recommendation System</h2>
-            <img src="images/clothes-recommendation.png" alt="Clothes Recommendation System">
-            <p>A project to recommend clothing items based on user preferences and purchase history using machine learning algorithms.</p>
-            <a href="projects/clothes-recommendation/">Explore Project</a>
-        </div>
-        <div class="project" id="sales-forecasting">
-            <h2>Sales Forecasting System</h2>
-            <img src="images/sales-forecasting.png" alt="Sales Forecasting System">
-            <p>A project to forecast sales for retail stores using time series analysis and machine learning techniques.</p>
-            <a href="projects/sales-forecasting/">Explore Project</a>
-        </div>
-        <div class="project" id="weather-forecasting">
-            <h2>Weather Forecasting System</h2>
-            <img src="images/weather-forecasting.png" alt="Weather Forecasting System">
-            <p>A project to predict weather conditions using historical data and machine learning models.</p>
-            <a href="projects/weather-forecasting/">Explore Project</a>
-        </div>
-    </section>
-</body>
-</html>
+        <nav>
+            <ul>
+                <li><a href="#movie-recommendation">Movie Recommendation</a></li>
+                <li><a href="#clothes-recommendation">Clothes Recommendation</a></li>
+                <li><a href="#sales-forecasting">Sales Forecasting</a></li>
+                <li><a href="#weather-forecasting">Weather Forecasting</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<header class="header">
+    <div class="container">
+        <h1>Welcome to My Data Projects</h1>
+        <p>Explore my portfolio showcasing various data projects.</p>
+    </div>
+</header>
+<section class="container" id="projects">
+    <div class="project" id="movie-recommendation">
+        <h2>Movie Recommendation System</h2>
+        <img src="images/movie-recommendation.png" alt="Movie Recommendation System">
+        <p>A project to recommend movies based on user preferences using collaborative filtering and content-based filtering techniques.</p>
+        <a href="projects/movie-recommendation/">Explore Project</a>
+    </div>
+    <div class="project" id="clothes-recommendation">
+        <h2>Clothes Recommendation System</h2>
+        <img src="images/clothes-recommendation.png" alt="Clothes Recommendation System">
+        <p>A project to recommend clothing items based on user preferences and purchase history using machine learning algorithms.</p>
+        <a href="projects/clothes-recommendation/">Explore Project</a>
+    </div>
+    <div class="project" id="sales-forecasting">
+        <h2>Sales Forecasting System</h2>
+        <img src="images/sales-forecasting.png" alt="Sales Forecasting System">
+        <p>A project to forecast sales for retail stores using time series analysis and machine learning techniques.</p>
+        <a href="projects/sales-forecasting/">Explore Project</a>
+    </div>
+    <div class="project" id="weather-forecasting">
+        <h2>Weather Forecasting System</h2>
+        <img src="images/weather-forecasting.png" alt="Weather Forecasting System">
+        <p>A project to predict weather conditions using historical data and machine learning models.</p>
+        <a href="projects/weather-forecasting/">Explore Project</a>
+    </div>
+</section>
