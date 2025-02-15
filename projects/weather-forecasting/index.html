@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecasting System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77a solid 3px;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        #showcase {
+            min-height: 400px;
+            background: url('../images/weather-forecasting.png') no-repeat center center/cover;
+            text-align: center;
+            color: #fff;
+        }
+        #showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        section {
+            padding: 20px 0;
+        }
+        .content {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border: #e1e1e1 1px solid;
+        }
+        .content h2 {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Weather Forecasting System</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../../">Home</a></li>
+                    <li><a href="../movie-recommendation/">Movie Recommendation</a></li>
+                    <li><a href="../clothes-recommendation/">Clothes Recommendation</a></li>
+                    <li><a href="../sales-forecasting/">Sales Forecasting</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="showcase">
+        <div class="container">
+            <h1>Weather Forecasting System</h1>
+            <p>A project to predict weather conditions using historical data and machine learning models.</p>
+        </div>
+    </section>
+    <section class="container">
+        <div class="content">
+            <h2>Project Overview</h2>
+            <p>This project aims to predict weather conditions using historical weather data. By applying machine learning models, we aim to provide accurate weather forecasts.</p>
+            <h2>Technologies Used</h2>
+            <ul>
+                <li>Python</li>
+                <li>Pandas</li>
+                <li>NumPy</li>
+                <li>Scikit-learn</li>
+                <li>Keras/TensorFlow</li>
+                <li>Matplotlib</li>
+            </ul>
+            <h2>Implementation</h2>
+            <p>The implementation involves the following steps:</p>
+            <ol>
+                <li>Data Collection: Gather historical weather data from reliable sources.</li>
+                <li>Data Preprocessing: Clean and preprocess the data for analysis.</li>
+                <li>Feature Engineering: Create new features to improve model accuracy.</li>
+                <li>Model Training: Train machine learning models to predict weather conditions.</li>
+                <li>Evaluation: Evaluate the models using metrics like MAE, RMSE, and accuracy.</li>
+                <li>Deployment: Deploy the model as a web application using Flask.</li>
+            </ol>
+        </div>
+    </section>
+</body>
+</html>
